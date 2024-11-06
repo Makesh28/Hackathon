@@ -1,0 +1,581 @@
+16:59:58.787 [main] INFO  - [TestNG] Running:
+  C:\Users\2361548\git\repository\hackathon\master.xml
+
+17:00:09.799 [main] INFO  - Car_Loan_Test
+17:00:09.799 [main] INFO  - 01: Navigating to the Car Loan page.
+17:00:11.761 [main] INFO  - 02: Navigated to the Car Loan page.
+17:00:11.761 [main] INFO  - 03: Clicking on Car Loan.
+17:00:11.919 [main] INFO  - 04: Clicked on Car Loan.
+17:00:11.967 [main] INFO  - Smoke Test Successfully Verified - Car Loan Page
+17:00:11.979 [main] INFO  - 05: Reading data from Excel file.
+17:00:12.460 [main] INFO  - 06: Data read from Excel file: Loan Amount = 1500000, Interest = 9.5, Tenure = -375
+17:00:12.460 [main] INFO  - 07: Setting Loan Amount.
+17:00:12.630 [main] INFO  - 08: Loan Amount set to 1500000
+17:00:12.630 [main] INFO  - 09: Setting Interest Rate.
+17:00:12.654 [main] INFO  - 10: Interest Rate set to 9.5
+17:00:12.654 [main] INFO  - 11: Moving Loan Tenure Slider.
+17:00:13.237 [main] INFO  - 12: Loan Tenure Slider moved.
+17:00:13.237 [main] INFO  - 13: Clicking on Year.
+17:00:13.302 [main] INFO  - 14: Clicked on Year.
+17:00:13.303 [main] INFO  - 15: Scrolling to the table.
+17:00:13.450 [main] INFO  - 16: Scrolled to the table.
+17:00:13.450 [main] INFO  - 17: Clicking on Years.
+17:00:13.494 [main] INFO  - 18: Clicked on Years.
+17:00:13.494 [main] INFO  - 19: Fetching EMI Payment Table Data.
+17:00:14.547 [main] INFO  - 20: Fetched EMI Payment Table Data.
+17:00:14.547 [main] INFO  - 21: Writing data to Excel file: .//TestData/TS001_YearTable_TestNG2024.11.05.17.00.14.xlsx
+17:00:14.717 [main] INFO  - 22: Data written to Excel file successfully.
+17:00:29.381 [main] INFO  - Home_Loan_Test
+17:00:29.382 [main] INFO  - 01.Navigating to the Home Loan page.
+17:00:34.416 [main] INFO  - 02.Navigated to the Home Loan page.
+17:00:34.452 [main] INFO  - Smoke Test Successfully Verified - Home Loan Page
+17:00:34.455 [main] INFO  - 03.Scrolling to the table.
+17:00:34.712 [main] INFO  - 04.Scrolled to the table.
+17:00:34.712 [main] INFO  - 05.Fetching table data.
+17:00:38.688 [main] INFO  - 06.Fetched table data.
+17:00:38.688 [main] INFO  - 07.Writing data to Excel file: .//TestData/TS002_YearTable_TestNG2024.11.05.17.00.38.xlsx
+17:00:38.734 [main] INFO  - 08.Data written to Excel file successfully.
+17:00:53.316 [main] INFO  - TS003_01_Navigating to the EMI Calculator page.
+17:00:58.549 [main] INFO  - TS003_01_Navigated to the EMI Calculator page.
+17:00:58.557 [main] INFO  - TS003_Smoke Test Successfully Verified - EMI Calculator Page
+17:00:58.562 [main] INFO  - TS003_02_Validating displayed elements of EMI Calculator.
+17:00:58.897 [main] INFO  - TS003_02_All elements are displayed successfully in EMI Calculator Page.
+17:00:58.897 [main] INFO  - TS003_03_Validating enabled elements of EMI Calculator Page.
+17:00:59.013 [main] INFO  - TS003_03_All elements are enabled successfully in EMI Calculator Page.
+17:00:59.013 [main] INFO  - TS003_04_Testing scale change for Loan Amount in EMI Calculator Page.
+17:00:59.925 [main] INFO  - TS003_05_Testing scale change for Interest Rate.
+17:01:00.840 [main] INFO  - TS003_06_Testing scale change for Loan Tenure in EMI Calculator Page.
+17:01:01.760 [main] INFO  - TS003_07_Validating Year and Month option in EMI Calculator Page.
+17:01:01.805 [main] INFO  - TS003_08_Testing scale change for Fees and Charges in EMI Calculator Page.
+17:01:02.732 [main] INFO  - TS003_09_Loan Tenure UI Check validation is successful in EMI Calculator Page.
+17:01:21.634 [main] INFO  - TS003_Navigating to the EMI Calculator page.
+17:01:26.641 [main] INFO  - TS003_Navigated to the EMI Calculator page.
+17:01:26.647 [main] INFO  - Smoke Test Successfully Verified - EMI Calculator Page
+17:01:26.652 [main] INFO  - TS004_Navigating to the Loan Amount Calculator page.
+17:01:27.857 [main] INFO  - TS004_Navigated to the Loan Amount Calculator page.
+17:01:27.857 [main] INFO  - TS004_Validating that all text boxes and sliders are displayed in Loan Amount Calculator Page.
+17:01:28.026 [main] INFO  - TS004_All text boxes and sliders are displayed successfully in Loan Amount Calculator Page.
+17:01:28.027 [main] INFO  - TS004_Validating that all text boxes and sliders are enabled in Loan Amount Calculator Page.
+17:01:28.121 [main] INFO  - TS004_All text boxes and sliders are enabled successfully in Loan Amount Calculator Page.
+17:01:28.122 [main] INFO  - TS004_Testing scale change for Interest Rate in Loan Amount Calculator Page.
+17:01:29.039 [main] INFO  - TS004_Testing scale change for Loan Tenure in Loan Amount Calculator Page.
+17:01:29.973 [main] INFO  - TS004_Validating Year and Month option in Loan Amount Calculator Page.
+17:01:30.047 [main] INFO  - TS004_Testing scale change for Fees and Charges in Loan Amount Calculator Page.
+17:01:31.050 [main] ERROR - TS004_Loan Amount Calculator UI check validation failed: The following asserts failed:
+	Scale change for Loan Tenure did not match. did not expect [10] but found [10]
+17:01:49.808 [main] INFO  - TS003_Navigating to the EMI Calculator page.
+17:01:54.779 [main] INFO  - TS003_Navigated to the EMI Calculator page.
+17:01:54.785 [main] INFO  - Smoke Test Successfully Verified - EMI Calculator Page
+17:01:54.787 [main] INFO  - UI_LoanTenure_Calculation
+17:01:54.787 [main] INFO  - 01.Navigating to the Loan Tenure Calculator page.
+17:01:55.914 [main] INFO  - 02.Navigated to the Loan Tenure Calculator page.
+17:01:55.914 [main] INFO  - 03.Validating displayed elements of Loan Tenure Calculator.
+17:01:56.222 [main] INFO  - 04.All elements are displayed successfully in Loan Tenure Calculator page.
+17:01:56.222 [main] INFO  - 05.Validating enabled elements of Loan Tenure Calculator.
+17:01:56.326 [main] INFO  - 06.All elements are enabled successfully in Loan Tenure Calculator page.
+17:01:56.326 [main] INFO  - 07.Testing scale change for Loan Amount in Loan Tenure Calculator page.
+17:01:57.241 [main] INFO  - 08.Scale change for Loan Amount validated successfully.
+17:01:57.242 [main] INFO  - 09.Testing scale change for Interest Rate in Loan Tenure Calculator page.
+17:01:58.118 [main] INFO  - 10.Scale change for Interest Rate validated successfully in Loan Tenure Calculator page.
+17:01:58.118 [main] INFO  - 11.Testing scale change for Fees and Charges in Loan Tenure Calculator page.
+17:01:59.004 [main] INFO  - 12.Scale change for Fees and Charges validated successfully in Loan Tenure Calculator page.
+17:01:59.004 [main] ERROR - TS005_Loan Tenure UI check validation failed: The following asserts failed:
+	EMI Slider is visible unexpectedly expected [false] but found [true],
+	Interest Rate Text Box should not be enabled expected [false] but found [true],
+	Scale change for Interest Rate did not match. did not expect [14.25] but found [14.25]
+17:05:57.903 [main] INFO  - [TestNG] Running:
+  C:\Users\2361548\git\repository\hackathon\master.xml
+
+17:06:25.410 [main] INFO  - TS003_01_Navigating to the EMI Calculator page.
+17:06:25.916 [main] INFO  - TS003_01_Navigated to the EMI Calculator page.
+17:06:55.308 [main] INFO  - [TestNG] Running:
+  C:\Users\2361548\git\repository\hackathon\master.xml
+
+17:07:11.427 [main] INFO  - Car_Loan_Test
+17:07:11.429 [main] INFO  - 01: Navigating to the Car Loan page.
+17:07:12.163 [main] INFO  - 02: Navigated to the Car Loan page.
+17:07:12.163 [main] INFO  - 03: Clicking on Car Loan.
+17:07:12.458 [main] INFO  - 04: Clicked on Car Loan.
+17:07:12.618 [main] INFO  - Smoke Test Successfully Verified - Car Loan Page
+17:07:12.644 [main] INFO  - 05: Reading data from Excel file.
+17:07:13.716 [main] INFO  - 06: Data read from Excel file: Loan Amount = 1500000, Interest = 9.5, Tenure = -375
+17:07:13.716 [main] INFO  - 07: Setting Loan Amount.
+17:07:14.077 [main] INFO  - 08: Loan Amount set to 1500000
+17:07:14.078 [main] INFO  - 09: Setting Interest Rate.
+17:07:14.129 [main] INFO  - 10: Interest Rate set to 9.5
+17:07:14.129 [main] INFO  - 11: Moving Loan Tenure Slider.
+17:07:14.821 [main] INFO  - 12: Loan Tenure Slider moved.
+17:07:14.821 [main] INFO  - 13: Clicking on Year.
+17:07:14.890 [main] INFO  - 14: Clicked on Year.
+17:07:14.891 [main] INFO  - 15: Scrolling to the table.
+17:07:15.047 [main] INFO  - 16: Scrolled to the table.
+17:07:15.047 [main] INFO  - 17: Clicking on Years.
+17:07:15.217 [main] INFO  - 18: Clicked on Years.
+17:07:15.218 [main] INFO  - 19: Fetching EMI Payment Table Data.
+17:07:17.110 [main] INFO  - 20: Fetched EMI Payment Table Data.
+17:07:17.110 [main] INFO  - 21: Writing data to Excel file: .//TestData/TS001_YearTable_TestNG2024.11.05.17.07.17.xlsx
+17:07:17.542 [main] INFO  - 22: Data written to Excel file successfully.
+17:07:27.117 [main] INFO  - Home_Loan_Test
+17:07:27.159 [main] INFO  - 01.Navigating to the Home Loan page.
+17:07:28.351 [main] INFO  - 02.Navigated to the Home Loan page.
+17:07:28.359 [main] INFO  - Smoke Test Successfully Verified - Home Loan Page
+17:07:28.365 [main] INFO  - 03.Scrolling to the table.
+17:07:28.418 [main] INFO  - 04.Scrolled to the table.
+17:07:28.418 [main] INFO  - 05.Fetching table data.
+17:07:37.661 [main] INFO  - 06.Fetched table data.
+17:07:37.661 [main] INFO  - 07.Writing data to Excel file: .//TestData/TS002_YearTable_TestNG2024.11.05.17.07.37.xlsx
+17:07:37.787 [main] INFO  - 08.Data written to Excel file successfully.
+17:07:48.294 [main] INFO  - TS003_01_Navigating to the EMI Calculator page.
+17:07:49.251 [main] INFO  - TS003_01_Navigated to the EMI Calculator page.
+17:07:49.279 [main] INFO  - TS003_Smoke Test Successfully Verified - EMI Calculator Page
+17:07:49.292 [main] INFO  - TS003_02_Validating displayed elements of EMI Calculator.
+17:07:49.686 [main] INFO  - TS003_02_All elements are displayed successfully in EMI Calculator Page.
+17:07:49.686 [main] INFO  - TS003_03_Validating enabled elements of EMI Calculator Page.
+17:07:49.941 [main] INFO  - TS003_03_All elements are enabled successfully in EMI Calculator Page.
+17:07:49.942 [main] INFO  - TS003_04_Testing scale change for Loan Amount in EMI Calculator Page.
+17:07:50.915 [main] INFO  - TS003_05_Testing scale change for Interest Rate.
+17:07:51.809 [main] INFO  - TS003_06_Testing scale change for Loan Tenure in EMI Calculator Page.
+17:07:52.805 [main] INFO  - TS003_07_Validating Year and Month option in EMI Calculator Page.
+17:07:52.895 [main] INFO  - TS003_08_Testing scale change for Fees and Charges in EMI Calculator Page.
+17:07:54.253 [main] INFO  - TS003_09_Loan Tenure UI Check validation is successful in EMI Calculator Page.
+17:08:03.472 [main] INFO  - TS003_Navigating to the EMI Calculator page.
+17:08:04.601 [main] INFO  - TS003_Navigated to the EMI Calculator page.
+17:08:04.611 [main] INFO  - Smoke Test Successfully Verified - EMI Calculator Page
+17:08:04.616 [main] INFO  - TS004_Navigating to the Loan Amount Calculator page.
+17:08:05.181 [main] INFO  - TS004_Navigated to the Loan Amount Calculator page.
+17:08:05.182 [main] INFO  - TS004_Validating that all text boxes and sliders are displayed in Loan Amount Calculator Page.
+17:08:05.570 [main] INFO  - TS004_All text boxes and sliders are displayed successfully in Loan Amount Calculator Page.
+17:08:05.570 [main] INFO  - TS004_Validating that all text boxes and sliders are enabled in Loan Amount Calculator Page.
+17:08:05.800 [main] INFO  - TS004_All text boxes and sliders are enabled successfully in Loan Amount Calculator Page.
+17:08:05.800 [main] INFO  - TS004_Testing scale change for Interest Rate in Loan Amount Calculator Page.
+17:08:06.773 [main] INFO  - TS004_Testing scale change for Loan Tenure in Loan Amount Calculator Page.
+17:08:07.711 [main] INFO  - TS004_Validating Year and Month option in Loan Amount Calculator Page.
+17:08:07.798 [main] INFO  - TS004_Testing scale change for Fees and Charges in Loan Amount Calculator Page.
+17:08:08.804 [main] INFO  - TS004_Loan Amount Calculator UI check validation completed.
+17:08:17.330 [main] INFO  - TS003_Navigating to the EMI Calculator page.
+17:08:18.306 [main] INFO  - TS003_Navigated to the EMI Calculator page.
+17:08:18.336 [main] INFO  - Smoke Test Successfully Verified - EMI Calculator Page
+17:08:18.341 [main] INFO  - UI_LoanTenure_Calculation
+17:08:18.341 [main] INFO  - 01.Navigating to the Loan Tenure Calculator page.
+17:08:18.990 [main] INFO  - 02.Navigated to the Loan Tenure Calculator page.
+17:08:18.990 [main] INFO  - 03.Validating displayed elements of Loan Tenure Calculator.
+17:08:19.403 [main] INFO  - 04.All elements are displayed successfully in Loan Tenure Calculator page.
+17:08:19.403 [main] INFO  - 05.Validating enabled elements of Loan Tenure Calculator.
+17:08:19.673 [main] INFO  - 06.All elements are enabled successfully in Loan Tenure Calculator page.
+17:08:19.673 [main] INFO  - 07.Testing scale change for Loan Amount in Loan Tenure Calculator page.
+17:08:20.748 [main] INFO  - 08.Scale change for Loan Amount validated successfully.
+17:08:20.748 [main] INFO  - 09.Testing scale change for Interest Rate in Loan Tenure Calculator page.
+17:08:21.792 [main] INFO  - 10.Scale change for Interest Rate validated successfully in Loan Tenure Calculator page.
+17:08:21.792 [main] INFO  - 11.Testing scale change for Fees and Charges in Loan Tenure Calculator page.
+17:08:22.763 [main] INFO  - 12.Scale change for Fees and Charges validated successfully in Loan Tenure Calculator page.
+17:08:22.763 [main] INFO  - 13.Loan Tenure UI check validation is successful.
+17:33:15.999 [main] INFO  - SC_001_01_Navigating to Car Loan Page
+17:33:16.602 [main] INFO  - SC_001_02_Navigated to Car Loan Page successfully
+17:33:16.609 [main] INFO  - SC_001_03_Entering values from Excel row: 1
+17:33:24.869 [main] INFO  - SC_002_01_Navigating to Home Loan Page
+17:33:25.825 [main] INFO  - SC_002_02_Navigated to Home Loan Page successfully
+17:33:25.827 [main] INFO  - SC_002_03_Scrolling to the table
+17:33:25.854 [main] INFO  - SC_002_04_Scrolled to the table successfully
+17:33:25.855 [main] INFO  - SC_002_05_Fetching data from the table
+17:33:39.874 [main] INFO  - SC_002_06_Fetched data from the table successfully
+17:33:39.874 [main] INFO  - SC_002_07_Writing data to Excel file: .//TestData/S2_YearTable_Cucumber2024.11.05.17.33.39.xlsx
+17:33:40.474 [main] INFO  - SC_002_08_Data written to Excel file successfully
+17:33:49.019 [main] INFO  - SC_003_01_Navigating to EMI Calc Page
+17:33:49.839 [main] INFO  - SC_003_02_Navigated to EMI Calc Page
+17:33:49.840 [main] INFO  - SC_003_03_Validating loan amount textbox and slider
+17:33:49.903 [main] INFO  - SC_003_04_Loan amount textbox and slider is visible
+17:33:49.919 [main] INFO  - SC_003_05_Loan Amount Text Box is enabled
+17:33:49.938 [main] INFO  - SC_003_06_Loan Amount slider is visible.
+17:33:49.953 [main] INFO  - SC_003_07_Loan Amount slider is enabled.
+17:33:49.955 [main] INFO  - SC_003_08_Validating scale change for loan amount textbox and slider
+17:33:50.826 [main] INFO  - SC_003_09_scale Change for Loan Amount Text Box and Slider was successful
+17:33:50.827 [main] INFO  - SC_003_10_Validating interest rate textbox and slider
+17:33:50.876 [main] INFO  - SC_003_11_Interest Rate Text Box is visible.
+17:33:50.887 [main] INFO  - SC_003_12_Interest Rate Text Box is enabled.
+17:33:50.903 [main] INFO  - SC_003_13_Interest Rate Slider is visible.
+17:33:50.916 [main] INFO  - SC_003_14_Interest Rate Slider is enabled.
+17:33:50.917 [main] INFO  - SC_003_15_Validating scale change for interest rate textbox and slider
+17:33:51.762 [main] INFO  - SC_003_16_Scale Change for Interest Rate Text Box and Slider was successful
+17:33:51.763 [main] INFO  - SC_003_17_Validating loan tenure textbox and slider
+17:33:51.804 [main] INFO  - SC_003_18_Loan Tenure Text Box is visible.
+17:33:51.816 [main] INFO  - SC_003_19_Loan Tenure Text Box is enabled.
+17:33:51.832 [main] INFO  - SC_003_20_Loan Tenure Slider is visible.
+17:33:51.846 [main] INFO  - SC_003_21_Loan Tenure Slider is enabled.
+17:33:51.847 [main] INFO  - SC_003_22_Validating scale change for loan tenure textbox and slider
+17:33:52.718 [main] INFO  - SC_003_23_Scale Change for Loan Tenure Text Box and Slider was successful
+17:33:52.721 [main] INFO  - SC_003_24_Validating year and month option
+17:33:52.816 [main] INFO  - SC_003_25_The data flow between the year and month is proper 
+17:33:52.817 [main] INFO  - SC_003_26_Validating fees and charges textbox and slider
+17:33:52.836 [main] INFO  - SC_003_27_Fees And Charges Text Box is visible.
+17:33:52.856 [main] INFO  - SC_003_28_Fees And Charges Text Box is enabled.
+17:33:52.878 [main] INFO  - SC_003_29_Fees And Charges Slider is visible.
+17:33:52.891 [main] INFO  - SC_003_30_Fees And Charges Slider is enabled.
+17:33:52.893 [main] INFO  - SC_003_31_user_validates_scale_change_for_fees_and_charges_textbox_and_slider
+17:33:53.955 [main] INFO  - SC_003_32_Scale Change for Fees And Charges Text Box and Slider was successful
+17:33:53.958 [main] INFO  - SC_003_33_EMI Calculator UI Check validation is successful
+17:34:00.680 [main] INFO  - SC_004_01_navigating to loan amount calculator
+17:34:01.247 [main] INFO  - SC_004_01_navigated to loan amount calculator
+17:34:01.250 [main] INFO  - SC_004_02_user_validates_emi_textbox_and_slider
+17:34:01.313 [main] INFO  - SC_004_03_EMI Text Box is visible.
+17:34:01.330 [main] INFO  - SC_004_04_EMI Text Box is enabled.
+17:34:01.347 [main] INFO  - SC_004_05_EMI Slider is visible.
+17:34:01.363 [main] INFO  - SC_004_06_EMI Slider is enabled.
+17:34:01.364 [main] INFO  - SC_004_07_user_validates_interest_rate_textbox_and_slider
+17:34:01.381 [main] INFO  - SC_004_08_Interest Rate Text Box is visible.
+17:34:01.394 [main] INFO  - SC_004_09_Interest Rate Text Box is enabled.
+17:34:01.411 [main] INFO  - SC_004_10_Interest Rate Slider is visible.
+17:34:01.423 [main] INFO  - SC_004_11_Interest Rate Slider is enabled.
+17:34:01.425 [main] INFO  - SC_004_12_Validates user_validates_scale_change_for_interest_rate_textbox_and_slider
+17:34:02.344 [main] INFO  - SC_004_13_Scale Change for Interest Rate Text Box and Slider was successful
+17:34:02.346 [main] INFO  - SC_004_14_Validates user_validates_loan_tenure_textbox_and_slider
+17:34:02.362 [main] INFO  - SC_004_15_Loan Tenure Text Box is visible.
+17:34:02.376 [main] INFO  - SC_004_16_Loan Tenure Text Box is enabled.
+17:34:02.391 [main] INFO  - SC_004_17_Loan Tenure Slider is visible.
+17:34:02.407 [main] INFO  - SC_004_18_Loan Tenure Slider is enabled.
+17:34:02.408 [main] INFO  - SC_004_21_Validates user validates year and month option of Loan Amount Calculator Page
+17:34:02.448 [main] INFO  - SC_004_22_The data flow between the year and month is proper
+17:34:02.450 [main] INFO  - SC_004_23_Validates user_validates_fees_and_charges_textbox_and_slider
+17:34:02.469 [main] INFO  - SC_004_24_Fees And Charges Text Box is visible.
+17:34:02.485 [main] INFO  - SC_004_25_Fees And Charges Text Box is enabled.
+17:34:02.507 [main] INFO  - SC_004_26_Fees And Charges Slider is visible.
+17:34:02.519 [main] INFO  - SC_004_27_Fees And Charges Slider is enabled.
+17:34:02.522 [main] INFO  - SC_004_28_Validates user_validates_scale_change_for_fees_and_charges_textbox_and_slider
+17:34:03.472 [main] INFO  - SC_004_29_Scale Change for Fees And Charges Text Box and Slider was successful
+17:34:03.473 [main] INFO  - SC_004_30_Validates loan_amount_calculator_ui_check_validation_is_successful
+17:34:13.498 [main] INFO  - SC_005_01_user navigating to loan tenure page
+17:34:14.241 [main] INFO  - SC_005_02_user navigating to loan tenure page
+17:34:14.243 [main] INFO  - SC_005_03_Validates user_validate_loan_amount_textbox_and_slider
+17:34:14.294 [main] INFO  - SC_005_04_Loan Amount Text Box is visible.
+17:34:14.314 [main] INFO  - SC_005_05_Loan Amount Text Box is enabled.
+17:34:14.338 [main] INFO  - SC_005_06_Loan Amount Slider is visible.
+17:34:14.353 [main] INFO  - SC_005_07_Loan Amount Slider is enabled.
+17:34:14.354 [main] INFO  - SC_005_08_Validates user_validate_scale_change_for_loan_amount_textbox_and_slider
+17:34:15.209 [main] INFO  - SC_005_09_Validates moveLoanAmtSlider
+17:34:15.252 [main] INFO  - SC_005_10_Scale Change for Loan Amount Text Box and Slider was successful
+17:34:15.253 [main] INFO  - SC_005_11_Validates user_validate_emi_textbox_and_slider
+17:34:15.273 [main] INFO  - SC_005_12_EMI Text Box is visible.
+17:34:15.286 [main] INFO  - SC_005_13_EMI Text Box is enabled.
+17:34:15.301 [main] INFO  - SC_005_14_Validates getEMISlider
+17:34:15.314 [main] INFO  - SC_005_15_EMI Slider is enabled.
+17:34:15.314 [main] INFO  - SC_005_16_Validates user_validate_interest_rate_textbox_and_slider
+17:34:15.330 [main] INFO  - SC_005_17_Interest Rate Text Box is visible.
+17:34:15.340 [main] INFO  - SC_005_18_Interest Rate Text Box is enabled.
+17:34:15.357 [main] INFO  - SC_005_19_Interest Rate Slider is visible.
+17:34:15.368 [main] INFO  - SC_005_20_Interest Rate Slider is enabled.
+17:34:15.369 [main] INFO  - SC_005_21_Validates user_validate_scale_change_for_interest_rate_textbox_and_slider
+17:34:16.232 [main] INFO  - SC_005_22_Scale Change for Interest Rate Text Box and Slider was successful
+17:34:16.233 [main] INFO  - SC_005_23_Validates user_validate_fees_and_charges_textbox_and_slider
+17:34:16.291 [main] INFO  - SC_005_24_Fees And Charges Text Box is visible.
+17:34:16.306 [main] INFO  - SC_005_25_Fees And Charges Text Box is enabled.
+17:34:16.324 [main] INFO  - SC_005_26_Fees And Charges Slider is visible.
+17:34:16.340 [main] INFO  - SC_005_27_Fees And Charges Slider is enabled.
+17:34:16.340 [main] INFO  - SC_005_28_Validates user_validates_scale_change_for_fees_and_charges_textbox_and_slider
+17:34:17.238 [main] INFO  - SC_005_29_Scale Change for Fees And Charges Text Box and Slider was successful
+17:34:17.239 [main] INFO  - SC_005_30_Validates loan_tenure_ui_check_validation_is_successful
+17:35:22.205 [main] INFO  - SC_001_01_Navigating to Car Loan Page
+17:35:22.575 [main] INFO  - SC_001_02_Navigated to Car Loan Page successfully
+17:35:22.583 [main] INFO  - SC_001_03_Entering values from Excel row: 1
+17:35:23.073 [main] INFO  - SC_001_04_Loan Amount: 1500000, Interest: 9.5, Tenure: -375
+17:35:23.856 [main] INFO  - SC_001_05_Values entered successfully
+17:35:23.860 [main] INFO  - SC_001_06_Clicking on the year button
+17:35:23.904 [main] INFO  - SC_001_07_Year button clicked successfully
+17:35:23.907 [main] INFO  - SC_001_08_Scrolling to the table
+17:35:24.050 [main] INFO  - SC_001_09_Scrolled to the table successfully
+17:35:24.053 [main] INFO  - SC_001_10_Fetching data from the table
+17:35:25.036 [main] INFO  - SC_001_11_Fetched data from the table successfully
+17:35:25.036 [main] INFO  - SC_001_12_Writing data to Excel file: .//TestData/S1_YearTable_TestNG2024.11.05.17.35.25.xlsx
+17:35:25.158 [main] INFO  - SC_001_13_Data written to Excel file successfully
+17:35:44.403 [main] INFO  - SC_002_01_Navigating to Home Loan Page
+17:35:45.212 [main] INFO  - SC_002_02_Navigated to Home Loan Page successfully
+17:35:45.220 [main] INFO  - SC_002_03_Scrolling to the table
+17:35:45.255 [main] INFO  - SC_002_04_Scrolled to the table successfully
+17:35:45.257 [main] INFO  - SC_002_05_Fetching data from the table
+17:35:59.464 [main] INFO  - SC_002_06_Fetched data from the table successfully
+17:35:59.464 [main] INFO  - SC_002_07_Writing data to Excel file: .//TestData/S2_YearTable_Cucumber2024.11.05.17.35.59.xlsx
+17:35:59.511 [main] INFO  - SC_002_08_Data written to Excel file successfully
+17:36:07.296 [main] INFO  - SC_003_01_Navigating to EMI Calc Page
+17:36:07.969 [main] INFO  - SC_003_02_Navigated to EMI Calc Page
+17:36:07.970 [main] INFO  - SC_003_03_Validating loan amount textbox and slider
+17:36:07.989 [main] INFO  - SC_003_04_Loan amount textbox and slider is visible
+17:36:08.008 [main] INFO  - SC_003_05_Loan Amount Text Box is enabled
+17:36:08.031 [main] INFO  - SC_003_06_Loan Amount slider is visible.
+17:36:08.048 [main] INFO  - SC_003_07_Loan Amount slider is enabled.
+17:36:08.049 [main] INFO  - SC_003_08_Validating scale change for loan amount textbox and slider
+17:36:08.951 [main] INFO  - SC_003_09_scale Change for Loan Amount Text Box and Slider was successful
+17:36:08.952 [main] INFO  - SC_003_10_Validating interest rate textbox and slider
+17:36:08.972 [main] INFO  - SC_003_11_Interest Rate Text Box is visible.
+17:36:08.987 [main] INFO  - SC_003_12_Interest Rate Text Box is enabled.
+17:36:09.002 [main] INFO  - SC_003_13_Interest Rate Slider is visible.
+17:36:09.016 [main] INFO  - SC_003_14_Interest Rate Slider is enabled.
+17:36:09.018 [main] INFO  - SC_003_15_Validating scale change for interest rate textbox and slider
+17:36:09.851 [main] INFO  - SC_003_16_Scale Change for Interest Rate Text Box and Slider was successful
+17:36:09.853 [main] INFO  - SC_003_17_Validating loan tenure textbox and slider
+17:36:09.896 [main] INFO  - SC_003_18_Loan Tenure Text Box is visible.
+17:36:09.909 [main] INFO  - SC_003_19_Loan Tenure Text Box is enabled.
+17:36:09.925 [main] INFO  - SC_003_20_Loan Tenure Slider is visible.
+17:36:09.938 [main] INFO  - SC_003_21_Loan Tenure Slider is enabled.
+17:36:09.939 [main] INFO  - SC_003_22_Validating scale change for loan tenure textbox and slider
+17:36:10.795 [main] INFO  - SC_003_23_Scale Change for Loan Tenure Text Box and Slider was successful
+17:36:10.797 [main] INFO  - SC_003_24_Validating year and month option
+17:36:10.900 [main] INFO  - SC_003_25_The data flow between the year and month is proper 
+17:36:10.902 [main] INFO  - SC_003_26_Validating fees and charges textbox and slider
+17:36:10.925 [main] INFO  - SC_003_27_Fees And Charges Text Box is visible.
+17:36:10.948 [main] INFO  - SC_003_28_Fees And Charges Text Box is enabled.
+17:36:10.972 [main] INFO  - SC_003_29_Fees And Charges Slider is visible.
+17:36:10.987 [main] INFO  - SC_003_30_Fees And Charges Slider is enabled.
+17:36:10.989 [main] INFO  - SC_003_31_user_validates_scale_change_for_fees_and_charges_textbox_and_slider
+17:36:11.882 [main] INFO  - SC_003_32_Scale Change for Fees And Charges Text Box and Slider was successful
+17:36:11.885 [main] INFO  - SC_003_33_EMI Calculator UI Check validation is successful
+17:36:19.187 [main] INFO  - SC_004_01_navigating to loan amount calculator
+17:36:19.964 [main] INFO  - SC_004_01_navigated to loan amount calculator
+17:36:19.967 [main] INFO  - SC_004_02_user_validates_emi_textbox_and_slider
+17:36:20.032 [main] INFO  - SC_004_03_EMI Text Box is visible.
+17:36:20.049 [main] INFO  - SC_004_04_EMI Text Box is enabled.
+17:36:20.069 [main] INFO  - SC_004_05_EMI Slider is visible.
+17:36:20.081 [main] INFO  - SC_004_06_EMI Slider is enabled.
+17:36:20.081 [main] INFO  - SC_004_07_user_validates_interest_rate_textbox_and_slider
+17:36:20.101 [main] INFO  - SC_004_08_Interest Rate Text Box is visible.
+17:36:20.115 [main] INFO  - SC_004_09_Interest Rate Text Box is enabled.
+17:36:20.132 [main] INFO  - SC_004_10_Interest Rate Slider is visible.
+17:36:20.144 [main] INFO  - SC_004_11_Interest Rate Slider is enabled.
+17:36:20.145 [main] INFO  - SC_004_12_Validates user_validates_scale_change_for_interest_rate_textbox_and_slider
+17:36:20.982 [main] INFO  - SC_004_13_Scale Change for Interest Rate Text Box and Slider was successful
+17:36:20.985 [main] INFO  - SC_004_14_Validates user_validates_loan_tenure_textbox_and_slider
+17:36:21.032 [main] INFO  - SC_004_15_Loan Tenure Text Box is visible.
+17:36:21.048 [main] INFO  - SC_004_16_Loan Tenure Text Box is enabled.
+17:36:21.066 [main] INFO  - SC_004_17_Loan Tenure Slider is visible.
+17:36:21.079 [main] INFO  - SC_004_18_Loan Tenure Slider is enabled.
+17:36:21.080 [main] INFO  - SC_004_21_Validates user validates year and month option of Loan Amount Calculator Page
+17:36:21.128 [main] INFO  - SC_004_22_The data flow between the year and month is proper
+17:36:21.129 [main] INFO  - SC_004_23_Validates user_validates_fees_and_charges_textbox_and_slider
+17:36:21.153 [main] INFO  - SC_004_24_Fees And Charges Text Box is visible.
+17:36:21.172 [main] INFO  - SC_004_25_Fees And Charges Text Box is enabled.
+17:36:21.193 [main] INFO  - SC_004_26_Fees And Charges Slider is visible.
+17:36:21.205 [main] INFO  - SC_004_27_Fees And Charges Slider is enabled.
+17:36:21.207 [main] INFO  - SC_004_28_Validates user_validates_scale_change_for_fees_and_charges_textbox_and_slider
+17:36:22.149 [main] INFO  - SC_004_29_Scale Change for Fees And Charges Text Box and Slider was successful
+17:36:22.150 [main] INFO  - SC_004_30_Validates loan_amount_calculator_ui_check_validation_is_successful
+17:36:28.590 [main] INFO  - SC_005_01_user navigating to loan tenure page
+17:36:29.299 [main] INFO  - SC_005_02_user navigating to loan tenure page
+17:36:29.300 [main] INFO  - SC_005_03_Validates user_validate_loan_amount_textbox_and_slider
+17:36:29.350 [main] INFO  - SC_005_04_Loan Amount Text Box is visible.
+17:36:29.364 [main] INFO  - SC_005_05_Loan Amount Text Box is enabled.
+17:36:29.386 [main] INFO  - SC_005_06_Loan Amount Slider is visible.
+17:36:29.404 [main] INFO  - SC_005_07_Loan Amount Slider is enabled.
+17:36:29.405 [main] INFO  - SC_005_08_Validates user_validate_scale_change_for_loan_amount_textbox_and_slider
+17:36:30.248 [main] INFO  - SC_005_09_Validates moveLoanAmtSlider
+17:36:30.294 [main] INFO  - SC_005_10_Scale Change for Loan Amount Text Box and Slider was successful
+17:36:30.296 [main] INFO  - SC_005_11_Validates user_validate_emi_textbox_and_slider
+17:36:30.335 [main] INFO  - SC_005_12_EMI Text Box is visible.
+17:36:30.349 [main] INFO  - SC_005_13_EMI Text Box is enabled.
+17:36:30.365 [main] INFO  - SC_005_14_Validates getEMISlider
+17:36:30.378 [main] INFO  - SC_005_15_EMI Slider is enabled.
+17:36:30.379 [main] INFO  - SC_005_16_Validates user_validate_interest_rate_textbox_and_slider
+17:36:30.398 [main] INFO  - SC_005_17_Interest Rate Text Box is visible.
+17:36:30.413 [main] INFO  - SC_005_18_Interest Rate Text Box is enabled.
+17:36:30.431 [main] INFO  - SC_005_19_Interest Rate Slider is visible.
+17:36:30.448 [main] INFO  - SC_005_20_Interest Rate Slider is enabled.
+17:36:30.449 [main] INFO  - SC_005_21_Validates user_validate_scale_change_for_interest_rate_textbox_and_slider
+17:36:31.331 [main] INFO  - SC_005_22_Scale Change for Interest Rate Text Box and Slider was successful
+17:36:31.332 [main] INFO  - SC_005_23_Validates user_validate_fees_and_charges_textbox_and_slider
+17:36:31.393 [main] INFO  - SC_005_24_Fees And Charges Text Box is visible.
+17:36:31.410 [main] INFO  - SC_005_25_Fees And Charges Text Box is enabled.
+17:36:31.438 [main] INFO  - SC_005_26_Fees And Charges Slider is visible.
+17:36:31.465 [main] INFO  - SC_005_27_Fees And Charges Slider is enabled.
+17:36:31.466 [main] INFO  - SC_005_28_Validates user_validates_scale_change_for_fees_and_charges_textbox_and_slider
+17:36:32.375 [main] INFO  - SC_005_29_Scale Change for Fees And Charges Text Box and Slider was successful
+17:36:32.377 [main] INFO  - SC_005_30_Validates loan_tenure_ui_check_validation_is_successful
+17:37:28.432 [main] INFO  - [TestNG] Running:
+  C:\Users\2361433\Downloads\hackathon 7\hackathon\master.xml
+
+17:37:37.248 [main] INFO  - Car_Loan_Test
+17:37:37.248 [main] INFO  - 01: Navigating to the Car Loan page.
+17:37:37.692 [main] INFO  - 02: Navigated to the Car Loan page.
+17:37:37.692 [main] INFO  - 03: Clicking on Car Loan.
+17:37:37.789 [main] INFO  - 04: Clicked on Car Loan.
+17:37:37.795 [main] INFO  - Smoke Test Successfully Verified - Car Loan Page
+17:37:37.809 [main] INFO  - 05: Reading data from Excel file.
+17:37:38.283 [main] INFO  - 06: Data read from Excel file: Loan Amount = 1500000, Interest = 9.5, Tenure = -375
+17:37:38.283 [main] INFO  - 07: Setting Loan Amount.
+17:37:38.429 [main] INFO  - 08: Loan Amount set to 1500000
+17:37:38.429 [main] INFO  - 09: Setting Interest Rate.
+17:37:38.449 [main] INFO  - 10: Interest Rate set to 9.5
+17:37:38.449 [main] INFO  - 11: Moving Loan Tenure Slider.
+17:37:39.010 [main] INFO  - 12: Loan Tenure Slider moved.
+17:37:39.010 [main] INFO  - 13: Clicking on Year.
+17:37:39.063 [main] INFO  - 14: Clicked on Year.
+17:37:39.063 [main] INFO  - 15: Scrolling to the table.
+17:37:39.207 [main] INFO  - 16: Scrolled to the table.
+17:37:39.207 [main] INFO  - 17: Clicking on Years.
+17:37:39.254 [main] INFO  - 18: Clicked on Years.
+17:37:39.254 [main] INFO  - 19: Fetching EMI Payment Table Data.
+17:37:40.258 [main] INFO  - 20: Fetched EMI Payment Table Data.
+17:37:40.259 [main] INFO  - 21: Writing data to Excel file: .//TestData/TS001_YearTable_TestNG2024.11.05.17.37.40.xlsx
+17:37:40.413 [main] INFO  - 22: Data written to Excel file successfully.
+17:37:50.594 [main] INFO  - Home_Loan_Test
+17:37:50.597 [main] INFO  - 01. Navigating to the Home Loan page.
+17:37:51.112 [main] INFO  - 02. Navigated to the Home Loan page.
+17:37:51.153 [main] INFO  - Smoke Test Successfully Verified - Home Loan Page
+17:37:51.156 [main] INFO  - 03. Scrolling to the table.
+17:37:51.180 [main] INFO  - 04. Scrolled to the table.
+17:37:51.180 [main] INFO  - 05. Fetching table data.
+17:37:54.625 [main] INFO  - 06. Fetched table data.
+17:37:54.625 [main] INFO  - 07. Writing data to Excel file: .//TestData/TS002_YearTable_TestNG2024.11.05.17.37.54.xlsx
+17:37:54.672 [main] INFO  - 08. Data written to Excel file successfully.
+17:38:01.520 [main] INFO  - TS003_01_Navigating to the EMI Calculator page.
+17:38:02.202 [main] INFO  - TS003_01_Navigated to the EMI Calculator page.
+17:38:02.214 [main] INFO  - TS003_Smoke Test Successfully Verified - EMI Calculator Page
+17:38:02.220 [main] INFO  - TS003_02_Validating displayed elements of EMI Calculator.
+17:38:02.375 [main] INFO  - TS003_02_All elements are displayed successfully in EMI Calculator Page.
+17:38:02.376 [main] INFO  - TS003_03_Validating enabled elements of EMI Calculator Page.
+17:38:02.514 [main] INFO  - TS003_03_All elements are enabled successfully in EMI Calculator Page.
+17:38:02.514 [main] INFO  - TS003_04_Testing scale change for Loan Amount in EMI Calculator Page.
+17:38:03.403 [main] INFO  - TS003_05_Testing scale change for Interest Rate.
+17:38:04.264 [main] INFO  - TS003_06_Testing scale change for Loan Tenure in EMI Calculator Page.
+17:38:05.139 [main] INFO  - TS003_07_Validating Year and Month option in EMI Calculator Page.
+17:38:05.203 [main] INFO  - TS003_08_Testing scale change for Fees and Charges in EMI Calculator Page.
+17:38:06.176 [main] INFO  - TS003_09_Loan Tenure UI Check validation is successful in EMI Calculator Page.
+17:38:13.456 [main] INFO  - TS003_Navigating to the EMI Calculator page.
+17:38:14.207 [main] INFO  - TS003_Navigated to the EMI Calculator page.
+17:38:14.214 [main] INFO  - Smoke Test Successfully Verified - EMI Calculator Page
+17:38:14.218 [main] INFO  - TS004_Navigating to the Loan Amount Calculator page.
+17:38:14.650 [main] INFO  - TS004_Navigated to the Loan Amount Calculator page.
+17:38:14.650 [main] INFO  - TS004_Validating that all text boxes and sliders are displayed in Loan Amount Calculator Page.
+17:38:14.858 [main] INFO  - TS004_All text boxes and sliders are displayed successfully in Loan Amount Calculator Page.
+17:38:14.858 [main] INFO  - TS004_Validating that all text boxes and sliders are enabled in Loan Amount Calculator Page.
+17:38:14.963 [main] INFO  - TS004_All text boxes and sliders are enabled successfully in Loan Amount Calculator Page.
+17:38:14.963 [main] INFO  - TS004_Testing scale change for Interest Rate in Loan Amount Calculator Page.
+17:38:15.830 [main] INFO  - TS004_Testing scale change for Loan Tenure in Loan Amount Calculator Page.
+17:38:16.720 [main] INFO  - TS004_Validating Year and Month option in Loan Amount Calculator Page.
+17:38:16.764 [main] INFO  - TS004_Testing scale change for Fees and Charges in Loan Amount Calculator Page.
+17:38:17.838 [main] INFO  - TS004_Loan Amount Calculator UI check validation completed.
+17:38:24.449 [main] INFO  - TS003_Navigating to the EMI Calculator page.
+17:38:25.087 [main] INFO  - TS003_Navigated to the EMI Calculator page.
+17:38:25.092 [main] INFO  - Smoke Test Successfully Verified - EMI Calculator Page
+17:38:25.094 [main] INFO  - UI_LoanTenure_Calculation
+17:38:25.094 [main] INFO  - 01.Navigating to the Loan Tenure Calculator page.
+17:38:25.409 [main] INFO  - 02.Navigated to the Loan Tenure Calculator page.
+17:38:25.409 [main] INFO  - 03.Validating displayed elements of Loan Tenure Calculator.
+17:38:25.592 [main] INFO  - 04.All elements are displayed successfully in Loan Tenure Calculator page.
+17:38:25.592 [main] INFO  - 05.Validating enabled elements of Loan Tenure Calculator.
+17:38:25.694 [main] INFO  - 06.All elements are enabled successfully in Loan Tenure Calculator page.
+17:38:25.695 [main] INFO  - 07.Testing scale change for Loan Amount in Loan Tenure Calculator page.
+17:38:26.559 [main] INFO  - 08.Scale change for Loan Amount validated successfully.
+17:38:26.559 [main] INFO  - 09.Testing scale change for Interest Rate in Loan Tenure Calculator page.
+17:38:27.436 [main] INFO  - 10.Scale change for Interest Rate validated successfully in Loan Tenure Calculator page.
+17:38:27.436 [main] INFO  - 11.Testing scale change for Fees and Charges in Loan Tenure Calculator page.
+17:38:28.409 [main] INFO  - 12.Scale change for Fees and Charges validated successfully in Loan Tenure Calculator page.
+17:38:28.410 [main] INFO  - 13.Loan Tenure UI check validation is successful.
+17:42:57.604 [main] INFO  - SC_001_01_Navigating to Car Loan Page
+17:42:58.013 [main] INFO  - SC_001_02_Navigated to Car Loan Page successfully
+17:42:58.019 [main] INFO  - SC_001_03_Entering values from Excel row: 1
+17:42:58.477 [main] INFO  - SC_001_04_Loan Amount: 1500000, Interest: 9.5, Tenure: -375
+17:42:59.267 [main] INFO  - SC_001_05_Values entered successfully
+17:42:59.269 [main] INFO  - SC_001_06_Clicking on the year button
+17:42:59.309 [main] INFO  - SC_001_07_Year button clicked successfully
+17:42:59.311 [main] INFO  - SC_001_08_Scrolling to the table
+17:42:59.445 [main] INFO  - SC_001_09_Scrolled to the table successfully
+17:42:59.448 [main] INFO  - SC_001_10_Fetching data from the table
+17:43:00.540 [main] INFO  - SC_001_11_Fetched data from the table successfully
+17:43:00.540 [main] INFO  - SC_001_12_Writing data to Excel file: .//TestData/S1_YearTable_TestNG2024.11.05.17.43.00.xlsx
+17:43:00.656 [main] INFO  - SC_001_13_Data written to Excel file successfully
+17:43:07.425 [main] INFO  - SC_002_01_Navigating to Home Loan Page
+17:43:08.143 [main] INFO  - SC_002_02_Navigated to Home Loan Page successfully
+17:43:08.146 [main] INFO  - SC_002_03_Scrolling to the table
+17:43:08.173 [main] INFO  - SC_002_04_Scrolled to the table successfully
+17:43:08.175 [main] INFO  - SC_002_05_Fetching data from the table
+17:43:21.883 [main] INFO  - SC_002_06_Fetched data from the table successfully
+17:43:21.883 [main] INFO  - SC_002_07_Writing data to Excel file: .//TestData/S2_YearTable_Cucumber2024.11.05.17.43.21.xlsx
+17:43:21.922 [main] INFO  - SC_002_08_Data written to Excel file successfully
+17:43:28.807 [main] INFO  - SC_003_01_Navigating to EMI Calc Page
+17:43:29.408 [main] INFO  - SC_003_02_Navigated to EMI Calc Page
+17:43:29.410 [main] INFO  - SC_003_03_Validating loan amount textbox and slider
+17:43:29.442 [main] INFO  - SC_003_04_Loan amount textbox and slider is visible
+17:43:29.458 [main] INFO  - SC_003_05_Loan Amount Text Box is enabled
+17:43:29.477 [main] INFO  - SC_003_06_Loan Amount slider is visible.
+17:43:29.490 [main] INFO  - SC_003_07_Loan Amount slider is enabled.
+17:43:29.491 [main] INFO  - SC_003_08_Validating scale change for loan amount textbox and slider
+17:43:30.381 [main] INFO  - SC_003_09_scale Change for Loan Amount Text Box and Slider was successful
+17:43:30.383 [main] INFO  - SC_003_10_Validating interest rate textbox and slider
+17:43:30.425 [main] INFO  - SC_003_11_Interest Rate Text Box is visible.
+17:43:30.442 [main] INFO  - SC_003_12_Interest Rate Text Box is enabled.
+17:43:30.457 [main] INFO  - SC_003_13_Interest Rate Slider is visible.
+17:43:30.468 [main] INFO  - SC_003_14_Interest Rate Slider is enabled.
+17:43:30.469 [main] INFO  - SC_003_15_Validating scale change for interest rate textbox and slider
+17:43:31.365 [main] INFO  - SC_003_16_Scale Change for Interest Rate Text Box and Slider was successful
+17:43:31.366 [main] INFO  - SC_003_17_Validating loan tenure textbox and slider
+17:43:31.411 [main] INFO  - SC_003_18_Loan Tenure Text Box is visible.
+17:43:31.421 [main] INFO  - SC_003_19_Loan Tenure Text Box is enabled.
+17:43:31.435 [main] INFO  - SC_003_20_Loan Tenure Slider is visible.
+17:43:31.450 [main] INFO  - SC_003_21_Loan Tenure Slider is enabled.
+17:43:31.451 [main] INFO  - SC_003_22_Validating scale change for loan tenure textbox and slider
+17:43:32.343 [main] INFO  - SC_003_23_Scale Change for Loan Tenure Text Box and Slider was successful
+17:43:32.345 [main] INFO  - SC_003_24_Validating year and month option
+17:43:32.418 [main] INFO  - SC_003_25_The data flow between the year and month is proper 
+17:43:32.419 [main] INFO  - SC_003_26_Validating fees and charges textbox and slider
+17:43:32.440 [main] INFO  - SC_003_27_Fees And Charges Text Box is visible.
+17:43:32.458 [main] INFO  - SC_003_28_Fees And Charges Text Box is enabled.
+17:43:32.475 [main] INFO  - SC_003_29_Fees And Charges Slider is visible.
+17:43:32.487 [main] INFO  - SC_003_30_Fees And Charges Slider is enabled.
+17:43:32.488 [main] INFO  - SC_003_31_user_validates_scale_change_for_fees_and_charges_textbox_and_slider
+17:43:33.420 [main] INFO  - SC_003_32_Scale Change for Fees And Charges Text Box and Slider was successful
+17:43:33.422 [main] INFO  - SC_003_33_EMI Calculator UI Check validation is successful
+17:43:39.879 [main] INFO  - SC_004_01_navigating to loan amount calculator
+17:43:40.596 [main] INFO  - SC_004_01_navigated to loan amount calculator
+17:43:40.598 [main] INFO  - SC_004_02_user_validates_emi_textbox_and_slider
+17:43:40.656 [main] INFO  - SC_004_03_EMI Text Box is visible.
+17:43:40.671 [main] INFO  - SC_004_04_EMI Text Box is enabled.
+17:43:40.692 [main] INFO  - SC_004_05_EMI Slider is visible.
+17:43:40.707 [main] INFO  - SC_004_06_EMI Slider is enabled.
+17:43:40.708 [main] INFO  - SC_004_07_user_validates_interest_rate_textbox_and_slider
+17:43:40.727 [main] INFO  - SC_004_08_Interest Rate Text Box is visible.
+17:43:40.747 [main] INFO  - SC_004_09_Interest Rate Text Box is enabled.
+17:43:40.765 [main] INFO  - SC_004_10_Interest Rate Slider is visible.
+17:43:40.781 [main] INFO  - SC_004_11_Interest Rate Slider is enabled.
+17:43:40.782 [main] INFO  - SC_004_12_Validates user_validates_scale_change_for_interest_rate_textbox_and_slider
+17:43:41.637 [main] INFO  - SC_004_13_Scale Change for Interest Rate Text Box and Slider was successful
+17:43:41.640 [main] INFO  - SC_004_14_Validates user_validates_loan_tenure_textbox_and_slider
+17:43:41.695 [main] INFO  - SC_004_15_Loan Tenure Text Box is visible.
+17:43:41.708 [main] INFO  - SC_004_16_Loan Tenure Text Box is enabled.
+17:43:41.725 [main] INFO  - SC_004_17_Loan Tenure Slider is visible.
+17:43:41.741 [main] INFO  - SC_004_18_Loan Tenure Slider is enabled.
+17:43:41.742 [main] INFO  - SC_004_21_Validates user validates year and month option of Loan Amount Calculator Page
+17:43:41.784 [main] INFO  - SC_004_22_The data flow between the year and month is proper
+17:43:41.785 [main] INFO  - SC_004_23_Validates user_validates_fees_and_charges_textbox_and_slider
+17:43:41.803 [main] INFO  - SC_004_24_Fees And Charges Text Box is visible.
+17:43:41.821 [main] INFO  - SC_004_25_Fees And Charges Text Box is enabled.
+17:43:41.841 [main] INFO  - SC_004_26_Fees And Charges Slider is visible.
+17:43:41.856 [main] INFO  - SC_004_27_Fees And Charges Slider is enabled.
+17:43:41.858 [main] INFO  - SC_004_28_Validates user_validates_scale_change_for_fees_and_charges_textbox_and_slider
+17:43:42.817 [main] INFO  - SC_004_29_Scale Change for Fees And Charges Text Box and Slider was successful
+17:43:42.819 [main] INFO  - SC_004_30_Validates loan_amount_calculator_ui_check_validation_is_successful
+17:43:49.506 [main] INFO  - SC_005_01_user navigating to loan tenure page
+17:43:50.194 [main] INFO  - SC_005_02_user navigating to loan tenure page
+17:43:50.195 [main] INFO  - SC_005_03_Validates user_validate_loan_amount_textbox_and_slider
+17:43:50.257 [main] INFO  - SC_005_04_Loan Amount Text Box is visible.
+17:43:50.274 [main] INFO  - SC_005_05_Loan Amount Text Box is enabled.
+17:43:50.294 [main] INFO  - SC_005_06_Loan Amount Slider is visible.
+17:43:50.307 [main] INFO  - SC_005_07_Loan Amount Slider is enabled.
+17:43:50.308 [main] INFO  - SC_005_08_Validates user_validate_scale_change_for_loan_amount_textbox_and_slider
+17:43:51.166 [main] INFO  - SC_005_09_Validates moveLoanAmtSlider
+17:43:51.216 [main] INFO  - SC_005_10_Scale Change for Loan Amount Text Box and Slider was successful
+17:43:51.218 [main] INFO  - SC_005_11_Validates user_validate_emi_textbox_and_slider
+17:43:51.238 [main] INFO  - SC_005_12_EMI Text Box is visible.
+17:43:51.250 [main] INFO  - SC_005_13_EMI Text Box is enabled.
+17:43:51.268 [main] INFO  - SC_005_14_Validates getEMISlider
+17:43:51.280 [main] INFO  - SC_005_15_EMI Slider is enabled.
+17:43:51.280 [main] INFO  - SC_005_16_Validates user_validate_interest_rate_textbox_and_slider
+17:43:51.295 [main] INFO  - SC_005_17_Interest Rate Text Box is visible.
+17:43:51.308 [main] INFO  - SC_005_18_Interest Rate Text Box is enabled.
+17:43:51.323 [main] INFO  - SC_005_19_Interest Rate Slider is visible.
+17:43:51.334 [main] INFO  - SC_005_20_Interest Rate Slider is enabled.
+17:43:51.336 [main] INFO  - SC_005_21_Validates user_validate_scale_change_for_interest_rate_textbox_and_slider
+17:43:52.246 [main] INFO  - SC_005_22_Scale Change for Interest Rate Text Box and Slider was successful
+17:43:52.248 [main] INFO  - SC_005_23_Validates user_validate_fees_and_charges_textbox_and_slider
+17:43:52.276 [main] INFO  - SC_005_24_Fees And Charges Text Box is visible.
+17:43:52.293 [main] INFO  - SC_005_25_Fees And Charges Text Box is enabled.
+17:43:52.318 [main] INFO  - SC_005_26_Fees And Charges Slider is visible.
+17:43:52.336 [main] INFO  - SC_005_27_Fees And Charges Slider is enabled.
+17:43:52.337 [main] INFO  - SC_005_28_Validates user_validates_scale_change_for_fees_and_charges_textbox_and_slider
+17:43:53.256 [main] INFO  - SC_005_29_Scale Change for Fees And Charges Text Box and Slider was successful
+17:43:53.258 [main] INFO  - SC_005_30_Validates loan_tenure_ui_check_validation_is_successful

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5">
+	<listeners>
+	<listener class-name="Utilities.ExtentReportManager"/>
+  </listeners>
+  <test  name="ChromeTest">
+	<parameter name="os" value="Windows"></parameter>
+	<parameter name="browser" value="chrome"></parameter>
+	<!--<groups>
+			<run>
+				<include name="smoke"/>
+			</run>
+		</groups>-->
+    <classes>
+      <class name="TestCase.TS001_CarLoanTest"/>
+      <class name="TestCase.TS002_HomeLoanTest"/>
+      <class name="TestCase.TS003_UI_EMIcalculator"/>
+      <class name="TestCase.TS004_UI_LoanAmountCalc"/>
+      <class name="TestCase.TS005_UI_LoanTenureCalc"/> 
+    </classes>
+  </test>
+  
+  <!--<test  name="EdgeTest">
+	<parameter name="os" value="Windows"></parameter>
+	<parameter name="browser" value="Edge"></parameter>
+    <classes>
+      <class name="TestCase.TS001_CarLoanTest"/>
+      <class name="TestCase.TS002_HomeLoanTest"/>
+      <class name="TestCase.TS003_UI_EMIcalculator"/>
+      <class name="TestCase.TS004_UI_LoanAmountCalc"/>
+      <class name="TestCase.TS005_UI_LoanTenureCalc"/>
+    </classes>
+  </test>  Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-05T17:37:28 IST" name="Suite" finished-at="2024-11-05T17:38:30 IST" duration-ms="61726">
+    <groups>
+      <group name="regression">
+        <method signature="TS001_CarLoanTest.user_enteringValues_carLoan()[pri:2, instance:TestCase.TS001_CarLoanTest@24111ef1]" name="user_enteringValues_carLoan" class="TestCase.TS001_CarLoanTest"/>
+        <method signature="TS002_HomeLoanTest.homeloan()[pri:2, instance:TestCase.TS002_HomeLoanTest@7b94089b]" name="homeloan" class="TestCase.TS002_HomeLoanTest"/>
+        <method signature="TS003_UI_EMIcalculator.user_validate_EMI_Calculator_functionality()[pri:2, instance:TestCase.TS003_UI_EMIcalculator@7ca20101]" name="user_validate_EMI_Calculator_functionality" class="TestCase.TS003_UI_EMIcalculator"/>
+        <method signature="TS004_UI_LoanAmountCalc.user_validate_Loan_Amount_Calculator_functionality()[pri:2, instance:TestCase.TS004_UI_LoanAmountCalc@47f9738]" name="user_validate_Loan_Amount_Calculator_functionality" class="TestCase.TS004_UI_LoanAmountCalc"/>
+        <method signature="TS005_UI_LoanTenureCalc.user_validate_Loan_Tenure_Calculator_functionality()[pri:2, instance:TestCase.TS005_UI_LoanTenureCalc@6155d082]" name="user_validate_Loan_Tenure_Calculator_functionality" class="TestCase.TS005_UI_LoanTenureCalc"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TS001_CarLoanTest.validate_carLoanPage()[pri:1, instance:TestCase.TS001_CarLoanTest@24111ef1]" name="validate_carLoanPage" class="TestCase.TS001_CarLoanTest"/>
+        <method signature="TS002_HomeLoanTest.validate_HomeLoanPage()[pri:1, instance:TestCase.TS002_HomeLoanTest@7b94089b]" name="validate_HomeLoanPage" class="TestCase.TS002_HomeLoanTest"/>
+        <method signature="TS003_UI_EMIcalculator.validate_EMICalPage()[pri:1, instance:TestCase.TS003_UI_EMIcalculator@7ca20101]" name="validate_EMICalPage" class="TestCase.TS003_UI_EMIcalculator"/>
+        <method signature="TS004_UI_LoanAmountCalc.validate_EMICalPage()[pri:1, instance:TestCase.TS004_UI_LoanAmountCalc@47f9738]" name="validate_EMICalPage" class="TestCase.TS004_UI_LoanAmountCalc"/>
+        <method signature="TS005_UI_LoanTenureCalc.validate_EMICalPage()[pri:1, instance:TestCase.TS005_UI_LoanTenureCalc@6155d082]" name="validate_EMICalPage" class="TestCase.TS005_UI_LoanTenureCalc"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-11-05T17:37:28 IST" name="ChromeTest" finished-at="2024-11-05T17:38:30 IST" duration-ms="61726">
+      <class name="TestCase.TS005_UI_LoanTenureCalc">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TS005_UI_LoanTenureCalc@6155d082]" started-at="2024-11-05T17:38:20 IST" name="setup" finished-at="2024-11-05T17:38:24 IST" duration-ms="4345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_EMICalPage()[pri:1, instance:TestCase.TS005_UI_LoanTenureCalc@6155d082]" started-at="2024-11-05T17:38:24 IST" name="validate_EMICalPage" finished-at="2024-11-05T17:38:25 IST" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_EMICalPage -->
+        <test-method signature="user_validate_Loan_Tenure_Calculator_functionality()[pri:2, instance:TestCase.TS005_UI_LoanTenureCalc@6155d082]" started-at="2024-11-05T17:38:25 IST" name="user_validate_Loan_Tenure_Calculator_functionality" finished-at="2024-11-05T17:38:28 IST" duration-ms="3317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_validate_Loan_Tenure_Calculator_functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.TS005_UI_LoanTenureCalc@6155d082]" started-at="2024-11-05T17:38:28 IST" name="tearDown" finished-at="2024-11-05T17:38:30 IST" duration-ms="1900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.TS005_UI_LoanTenureCalc -->
+      <class name="TestCase.TS003_UI_EMIcalculator">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TS003_UI_EMIcalculator@7ca20101]" started-at="2024-11-05T17:37:56 IST" name="setup" finished-at="2024-11-05T17:38:01 IST" duration-ms="4952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_EMICalPage()[pri:1, instance:TestCase.TS003_UI_EMIcalculator@7ca20101]" started-at="2024-11-05T17:38:01 IST" name="validate_EMICalPage" finished-at="2024-11-05T17:38:02 IST" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_EMICalPage -->
+        <test-method signature="user_validate_EMI_Calculator_functionality()[pri:2, instance:TestCase.TS003_UI_EMIcalculator@7ca20101]" started-at="2024-11-05T17:38:02 IST" name="user_validate_EMI_Calculator_functionality" finished-at="2024-11-05T17:38:06 IST" duration-ms="3960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_validate_EMI_Calculator_functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.TS003_UI_EMIcalculator@7ca20101]" started-at="2024-11-05T17:38:06 IST" name="tearDown" finished-at="2024-11-05T17:38:08 IST" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.TS003_UI_EMIcalculator -->
+      <class name="TestCase.TS002_HomeLoanTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TS002_HomeLoanTest@7b94089b]" started-at="2024-11-05T17:37:42 IST" name="setup" finished-at="2024-11-05T17:37:50 IST" duration-ms="8325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_HomeLoanPage()[pri:1, instance:TestCase.TS002_HomeLoanTest@7b94089b]" started-at="2024-11-05T17:37:50 IST" name="validate_HomeLoanPage" finished-at="2024-11-05T17:37:51 IST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_HomeLoanPage -->
+        <test-method signature="homeloan()[pri:2, instance:TestCase.TS002_HomeLoanTest@7b94089b]" started-at="2024-11-05T17:37:51 IST" name="homeloan" finished-at="2024-11-05T17:37:54 IST" duration-ms="3517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeloan -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.TS002_HomeLoanTest@7b94089b]" started-at="2024-11-05T17:37:54 IST" name="tearDown" finished-at="2024-11-05T17:37:56 IST" duration-ms="1889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.TS002_HomeLoanTest -->
+      <class name="TestCase.TS001_CarLoanTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TS001_CarLoanTest@24111ef1]" started-at="2024-11-05T17:37:28 IST" name="setup" finished-at="2024-11-05T17:37:37 IST" duration-ms="8582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_carLoanPage()[pri:1, instance:TestCase.TS001_CarLoanTest@24111ef1]" started-at="2024-11-05T17:37:37 IST" name="validate_carLoanPage" finished-at="2024-11-05T17:37:37 IST" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_carLoanPage -->
+        <test-method signature="user_enteringValues_carLoan()[pri:2, instance:TestCase.TS001_CarLoanTest@24111ef1]" started-at="2024-11-05T17:37:37 IST" name="user_enteringValues_carLoan" finished-at="2024-11-05T17:37:40 IST" duration-ms="2608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enteringValues_carLoan -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.TS001_CarLoanTest@24111ef1]" started-at="2024-11-05T17:37:40 IST" name="tearDown" finished-at="2024-11-05T17:37:42 IST" duration-ms="1851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.TS001_CarLoanTest -->
+      <class name="TestCase.TS004_UI_LoanAmountCalc">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TS004_UI_LoanAmountCalc@47f9738]" started-at="2024-11-05T17:38:08 IST" name="setup" finished-at="2024-11-05T17:38:13 IST" duration-ms="4904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_EMICalPage()[pri:1, instance:TestCase.TS004_UI_LoanAmountCalc@47f9738]" started-at="2024-11-05T17:38:13 IST" name="validate_EMICalPage" finished-at="2024-11-05T17:38:14 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_EMICalPage -->
+        <test-method signature="user_validate_Loan_Amount_Calculator_functionality()[pri:2, instance:TestCase.TS004_UI_LoanAmountCalc@47f9738]" started-at="2024-11-05T17:38:14 IST" name="user_validate_Loan_Amount_Calculator_functionality" finished-at="2024-11-05T17:38:17 IST" duration-ms="3623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_validate_Loan_Amount_Calculator_functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.TS004_UI_LoanAmountCalc@47f9738]" started-at="2024-11-05T17:38:17 IST" name="tearDown" finished-at="2024-11-05T17:38:20 IST" duration-ms="2261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.TS004_UI_LoanAmountCalc -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
